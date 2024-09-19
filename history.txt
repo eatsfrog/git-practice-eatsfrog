@@ -1,0 +1,191 @@
+    5  git config --global user.name "Ian Roman"
+    6  git config --global user.email ians.romanvilla@gmail.com
+    7  git config --global core.editor "code --wait"
+    8  git config --global init.defaultBranch main
+   12  mkdir git-practice
+   13  cd git practice
+   14  cd git-practice
+   15  git init
+   16  git status
+   20  rm -rf .git
+   24  rmdir git-practice
+   26  mkdir git-practice-iansrv
+   27  cd git-practice-iansrv
+   28  git init
+   31  git --version
+   36  cd git-practice-iansrv
+   38  rm -rf .git
+   42  rmdir git-practive-iansrv
+   43  rmdir git-practice-iansrv
+   45  mkdir git-practice-iansrv
+   46  rmdir git-practice-iansrv
+   47  mkdir gitpractice-iansrv
+   48  cd gitpractice-iansrv
+   49  git init
+   54  git add sample.txt
+   55  git commit -m "Initial commit"
+   56  git status
+   59  git status
+   60  git commit -m "Testing commit without adding updated files again"
+   61  git status
+   62  git add sample.txt
+   63  git commit -m "Changes in sample.txt added"
+   64  git add sample2.txt
+   66  git status
+   67  git restore sample2.txt
+   68  git commit -a -m "Committing all changes"
+   69  git restore
+   70  git status
+   87  cd git-practice-eatsfrog
+   88  git init
+   90  rm -rf .git
+   93  rmdir git-practice-eatsfrog
+   95  mkdir git-practice-eatsfrog
+   96  cd git-practice-eatsfrog
+   97  git init
+   98  git status
+  101  git status
+  102  git add file_1.txt file_2.txt
+  103  git status
+  104  git commit -m 'create new files'
+  105  git status
+  106  git log
+  107  git config
+  108  git config --list
+  109  git branch
+  113  git status
+  114  git add file_2.txt
+  115  git status
+  116  git log
+  117  git commit 'file_2.txt changes'
+  118  git commit -m 'file_2.txt changes'
+  119  git log
+  120  git status
+  123  git status
+  124  git add Readme.md
+  125  git commit -m 'added Readme.md'
+  126  git commit --amend
+  127  git log
+  128  git rebase -i HEAD~2
+  129  git status
+  130  git log
+  131  touch .gitignore
+  132  start .gitignore
+  133  git revert HEAD~3
+  134  git revert HEAD~3..HEAD
+  135  git revert HEAD~2..HEAD
+  136  git log
+  138  rmdir git-practice-eatsfrog
+  139  rmdir -rf git-practice-eatsfrog
+  140  rmdir -rfv git-practice-eatsfrog
+  141  rm -rf git-practice-eatsfrog
+  143  mkdir git-practice-eatsfrog
+  144  cd git-practice-eatsfrog
+  145  git init
+  146  git status
+  149  git status
+  150  git add file_1.txt file_2.txt
+  151  git status
+  152  git commit -m 'create new files'
+  153  git status
+  154  git log
+  157  git status
+  158  git add file_1.txt
+  159  git commit -m 'update file_1.txt'
+  160  git status
+  161  git add file_2.txt
+  162  git commit -m 'update file_2.txt'
+  163  git log
+  164  git status
+  167  git status
+  168  git add Readme.md
+  169  git commit -m 'create Readme.md'
+  170  git log
+  171  touch .gitignore
+  172  start .gitignore
+  173  git status
+  174  git add .gitignore
+  175  git status
+  176  git commit -m 'create .gitignore'
+  177  git log
+  179  git status
+  181  git status
+  182  git branch
+  183  git branch features
+  184  git switch features
+  185  git log
+  188  git add new_featutres.txt
+  189  git add new_features.txt
+  190  git commit -m 'add empty file'
+  191  git status
+  193  git status
+  194  git add new_features.txxt
+  195  git add new_features.txt
+  196  git commit -m 'update new_features.txt'
+  197  git log
+  198  git switch main
+  201  git switch features
+  202  git status
+  203  git restore -a
+  204  git restore file_1.txt new_features.txt
+  205  git restore file_1.txt
+  206  git log
+  207  git switch features
+  209  git status
+  211  git switch features
+  214  git log
+  215  git switch main
+  216  git log
+  219  git status
+  220  git add file_1.txt
+  221  git commit -m 'update file_1.txt'
+  222  git log
+  223  git status
+  224  git merge features
+  225  git log
+  226  git add new_features.txt
+  227  git status
+  228  git commit -m 'deprecate new_features.txt'
+  229  git log
+  230  git switch features
+  232  git status
+  233  git add new_features.txt
+  234  git commit -m 'deploy new_features.txt'
+  235  git log
+  236  git switch main
+  237  git merge features
+  238  git status
+  239  git merge features
+  240  git status
+  241  git add new_features.txt
+  242  git commit -m 'resolve merge conflict and deprecate new_features.txt'
+  243  git log
+  244  cd Code/git-practice-eatsfrog
+  245  git log
+  246  cd Code/git-practice-eatsfrog
+  247  git status
+  248  git branch -d features
+  249  git log
+  250  cd Code/git-practice-eatsfrog
+  251  git log
+  252  git remote add origin git@github.com:eatsfrog/git-practice-eatsfrog.git
+  253  git push -u origin main
+  259  git push -u origin main
+  261  mkdir git-practice-rvk23
+  262  cd git-practice-rvk23
+  263  git clone https://github.com/eatsfrog/git-practice-rvk23
+  265  cd Code/git-practice-rvk23
+  268  cd git-practice-rvk23
+  269  git branch feature-eatsfrog
+  270  git switch feature-eatsfrog
+  273  git add feature.txt
+  274  git commit -m "add feature.txt'
+  275  git switch main
+  276  git push origin feature-eatsfrog
+  278  cd git-practice-eatsfrog
+  279  git pull
+  280  git branches list
+  281  git branch --all
+  283  git log --online > gitlog.txt
+  284  git log --oneline > gitlog.txt
+  285  history | grep git > history.txt

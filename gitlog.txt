@@ -1,0 +1,14 @@
+7da8950 Merge pull request #1 from rvk23/feature-rvk23
+0cb44e0 made changes to new_file.txt
+4dbc8b2 resolve merge conflict and deprecate new_features.txt
+45b2c9a deploy new_features.txt
+c7e9117 deprecate new_features.txt
+e7fddef merge branch 'features'
+64b8670 update file_1.txt
+c7f1f51 update new_features.txt
+aa4daa7 add empty file
+f64556d create .gitignore
+5601012 create Readme.md
+827a5cf update file_2.txt
+4d05bd0 update file_1.txt
+333e8d5 create new files
